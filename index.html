@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Kumar Gupta | Portfolio</title>
+    <meta name="description" content="Portfolio of Ayush Kumar Gupta, Data Analytics Student & Frontend Developer based in India.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar glass-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">Ayush<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Timeline</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-menu">
+        <div class="close-btn"><i class="fas fa-times"></i></div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Timeline</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <canvas id="particles-canvas"></canvas>
+        <div class="hero-content reveal">
+            <h2 class="greeting">Hello, I'm</h2>
+            <h1 class="name gradient-text">Ayush Kumar Gupta</h1>
+            <h3 class="tagline">Turning Data into Insights</h3>
+            <p class="subheading">Data Analytics Enthusiast | Python | SQL | Visualization</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary ripple">View Projects</a>
+                <a href="#resume" class="btn btn-outline ripple">Download Resume</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>About <span>Me</span></h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="about-content reveal">
+                <div class="about-text glass-card">
+                    <p>
+                        I am a highly motivated <strong>B.Tech IT student</strong> with strong foundations in Python, SQL, DBMS, and Frontend technologies. 
+                        I am passionate about transforming raw data into meaningful insights using analytics and visualization. 
+                        I am constantly seeking opportunities to apply my data skills and frontend expertise in real-world, impactful projects.
+                    </p>
+                    
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <span>Ballia, Uttar Pradesh, India</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <span>guptayush60@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <span>+91-7275795052</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="strengths mt-4">
+                        <h3 class="mb-2">Key Strengths</h3>
+                        <div class="strength-badges">
+                            <span class="badge"><i class="fas fa-bolt"></i> Quick learner</span>
+                            <span class="badge"><i class="fas fa-puzzle-piece"></i> Problem solver</span>
+                            <span class="badge"><i class="fas fa-users"></i> Team collaborator</span>
+                            <span class="badge"><i class="fas fa-comments"></i> Strong communication</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats reveal delay-1">
+                    <div class="stat-card glass-card">
+                        <h3 class="gradient-text">2026</h3>
+                        <p>Expected Graduation</p>
+                    </div>
+                    <div class="stat-card glass-card mt-3">
+                        <h3 class="gradient-text">10+</h3>
+                        <p>Projects Built</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>My <span>Skills</span></h2>
+                <div class="title-line"></div>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Programming -->
+                <div class="skill-card glass-card tilt reveal">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Programming</h3>
+                    <ul class="skill-list">
+                        <li><span>Python</span> <div class="bar"><div class="fill" style="width: 90%;"></div></div></li>
+                        <li><span>SQL</span> <div class="bar"><div class="fill" style="width: 85%;"></div></div></li>
+                        <li><span>C</span> <div class="bar"><div class="fill" style="width: 75%;"></div></div></li>
+                    </ul>
+                </div>
+                
+                <!-- Web -->
+                <div class="skill-card glass-card tilt reveal delay-1">
+                    <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Web Technologies</h3>
+                    <ul class="skill-list">
+                        <li><span>HTML/CSS</span> <div class="bar"><div class="fill" style="width: 95%;"></div></div></li>
+                        <li><span>JavaScript</span> <div class="bar"><div class="fill" style="width: 80%;"></div></div></li>
+                        <li><span>Responsive Design</span> <div class="bar"><div class="fill" style="width: 90%;"></div></div></li>
+                    </ul>
+                </div>
+                
+                <!-- Database -->
+                <div class="skill-card glass-card tilt reveal delay-2">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>Database</h3>
+                    <ul class="skill-list">
+                        <li><span>DBMS / Relational</span> <div class="bar"><div class="fill" style="width: 85%;"></div></div></li>
+                        <li><span>Normalization</span> <div class="bar"><div class="fill" style="width: 80%;"></div></div></li>
+                        <li><span>CRUD Ops</span> <div class="bar"><div class="fill" style="width: 90%;"></div></div></li>
+                    </ul>
+                </div>
+
+                <!-- Core CS & Tools -->
+                <div class="skill-card glass-card tilt reveal delay-3">
+                    <div class="skill-icon"><i class="fas fa-microchip"></i></div>
+                    <h3>Core CS & Tools</h3>
+                    <div class="tags-container mt-2">
+                        <span class="tag">Data Structures</span>
+                        <span class="tag">OS</span>
+                        <span class="tag">Computer Networks</span>
+                        <span class="tag">Git</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">DevTools</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Featured <span>Projects</span></h2>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card reveal" data-project="1">
+                    <div class="project-img placeholder-gradient">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Student Database Management System</h3>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>Relational DB</span>
+                        </div>
+                        <p>A robust DB system focused on data integrity and full CRUD operations.</p>
+                        <button class="btn-text">View Details <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card reveal delay-1" data-project="2">
+                    <div class="project-img placeholder-gradient-2">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio Website</h3>
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <p>A responsive, modern tech portfolio featuring smooth animations and glassmorphism.</p>
+                        <button class="btn-text">View Details <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modals -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal glass-card" id="project-modal">
+            <button class="close-modal"><i class="fas fa-times"></i></button>
+            <div class="modal-content">
+                <h2 id="modal-title">Project Title</h2>
+                <div class="modal-tags" id="modal-tags"></div>
+                <p id="modal-desc">Project description goes here.</p>
+                <div id="modal-features" class="modal-features mt-3">
+                    <!-- Features injected here -->
+                </div>
+                <div class="modal-actions mt-4">
+                    <a href="#" class="btn btn-primary"><i class="fab fa-github"></i> Source Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Timeline Section -->
+    <section id="education" class="timeline-section section-padding">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Education & <span>Achievements</span></h2>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-date">2022 – 2026</div>
+                        <h3>B.Tech Information Technology</h3>
+                        <h4>S.R. Group of Institution and Management, AKTU, Lucknow</h4>
+                        <p>Pursuing undergraduate degree with a focus on core CS subjects, software development, and data analytics.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item reveal delay-1">
+                    <div class="timeline-dot dot-alt"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-date">Extracurricular</div>
+                        <h3>State Level Badminton Player</h3>
+                        <h4>Sports Achievement</h4>
+                        <p>Demonstrated discipline, teamwork, strategic focus, and consistent performance under pressure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Get In <span>Touch</span></h2>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info glass-card reveal">
+                    <h3>Let's Connect</h3>
+                    <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                    
+                    <div class="social-links mt-4">
+                        <a href="mailto:guptayush60@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container glass-card reveal delay-1">
+                    <form id="contact-form">
+                        <div class="input-group">
+                            <input type="text" id="name" required>
+                            <label for="name">Your Name</label>
+                            <div class="input-line"></div>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" required>
+                            <label for="email">Your Email</label>
+                            <div class="input-line"></div>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="message" required rows="4"></textarea>
+                            <label for="message">Your Message</label>
+                            <div class="input-line"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary ripple w-100">Send Message <i class="fas fa-paper-plane ms-2"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>&copy; <span id="year"></span> Ayush Kumar Gupta. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="cursor-glow"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
